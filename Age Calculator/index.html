@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form action="#">
+        <h1>Age Calculator</h1>
+        <div><h3 class="toDayDate">Today :</h3></div>
+        <div class="yourDate">
+          <label for="date">Date Of Birth :</label>
+          <input
+            type="text"
+            id="days"
+            placeholder="DD"
+            maxlength="2"
+            minlength="2"
+            required
+          />
+          <input
+            type="text  "
+            id="months"
+            placeholder="MM"
+            maxlength="2"
+            minlength="2"
+            required
+          />
+          <input
+            type="text"
+            id="years"
+            placeholder="YYYY"
+            maxlength="4"
+            minlength="4"
+            required
+          />
+          <button type="submit" id="chkBtn">Check DOB</button>
+        </div>
+        <div><h1 class="showdob"></h1></div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
